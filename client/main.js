@@ -3,6 +3,8 @@ import {BandMembers} from '/collections/bandMembers';
 
 import './main.html';
 
+// monogoose.connect('mongodb://localhost/s-1');
+
 Template.BandMembers.onCreated(function() {
 	this.subscribe('bandMembers');
 });
